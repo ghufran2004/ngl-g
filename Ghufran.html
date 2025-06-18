@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="refresh" content="0; url=https://grabify.link/ZLU4SX" />
-    <title>NGL</title>
-  </head>
-  <body>
-    <p>Redirecting...</p>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <title>NGL</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom right, #fc466b, #3f5efb);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 30px;
+      border-radius: 20px;
+      width: 90%;
+      max-width: 400px;
+    }
+    input, button {
+      padding: 12px;
+      width: 100%;
+      margin-top: 15px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+    }
+    input {
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
+    }
+    button {
+      background: white;
+      color: black;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Ask me anything</h2>
+    <input type="text" placeholder="Type your question..." disabled />
+    <button id="sendBtn">Send</button>
+  </div>
+
+  <script>
+    document.getElementById('sendBtn').onclick = () => {
+      window.location.href = 'https://ghufran2004.github.io/ngl-g/';
+    };
+  </script>
+</body>
 </html>
